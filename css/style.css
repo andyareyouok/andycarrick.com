@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Josefin+Sans|Lato|Montserrat|Open+Sans|Raleway|Roboto|Roboto+Condensed|Ubuntu');
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.navbar {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    padding: 1% 0;
+    font-size: 1.2em;
+
+}
+
+.navbar-brand {
+    min-height: 40px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #D5D5D5;
+    font-family: Josefin Sans;
+
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a.active {
+    color: #FFF;
+
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+#home {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(/images/prague.jpg);
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+
+}
+
+#home2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(/images/back.jpg);
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#home3 {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(/images/halong.jpg);
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+
+}
+
+#home4 {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(/images/cam3.jpg);
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.landing-text {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+
+
+}
+
+.contact-form {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+
+
+}
+
+.landing-text h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #F9F3F4;
+    font-size: 400%;
+    text-align: center;
+    text-shadow: 0px 0px 10px #000;
+    font-weight: 700;
+}
+
+.landing-text h3 {
+    color: #F9F3F4;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+h3 {
+    font-family: 'Josefin Sans';
+    color: #fcc212;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-align: center;
+
+}
+
+
+.profile {
+
+    background-image: url(/images/profile.jpg);
+    display: block;
+    background-size: contain;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 200px auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+
+}
+
+.paint {
+    background-image: url(/images/profile2.jpg);
+    display: block;
+    background-size: contain;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 200px auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+
+}
+
+.photo {
+    background-image: url(/images/profile3.jpg);
+    display: block;
+    background-size: contain;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 200px auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+
+}
+
+.padding {
+    padding: 80px 0;
+    background: whitesmoke;
+}
+
+.padding img {
+    width: 100%;
+}
+
+.development {
+    margin-top: 60px;
+}
+
+footer {
+    width: 100%;
+    background-color: #23415C;
+    padding: 5% 5% 10% 5%;
+    color: #FFF;
+    height: 10vh
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.fa:hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+.icon {
+    max-width: 200px;
+}
+
+.icons {
+    color: #81B72B;
+}
+
+@media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 300%;
+    }
+    .profile {
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+    }
+    .photo {
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+    }
+    .paint {
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+    }
+    .landing-text {
+        margin-top: 100px;
+    }
+
+
+
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
+
+
+.latest {
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+
+
+
+}
+
+.latest2 {
+    color: #81B72B;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 60px;
+
+
+}
+
+hr {
+    border-bottom: 2px solid #81B72B;
+}
+
+.box {
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+    box-shadow: rgba(black, 0.2) 0 30px 18px -24px;
+
+}
+
+.future {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lead {
+    font-family: 'Open Sans';
+    color: ;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+
+    margin: 30px auto;
+    vertical-align: middle;
+    font-size: 120%;
+}
+
+
+
+
+.logo {
+    font-family: 'Josefin Sans';
+    color: white;
+    text-decoration: underline;
+}
+
+.btn {
+    border-radius: 9px;
+    font-family: 'Ubuntu';
+    color: #fff;
+    font-size: 125%;
+    padding: 10px 20px;
+    border: solid #81B72B 3px;
+    font-weight: 900;
+    margin-right: 20px;
+    background-color: #81B72B;
+    transition: all .2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+
+.btn :hover {
+    transform: scale(1.1);
+
+}
+
+
+
+
+.cycle-prev,
+.cycle-next {
+    font-size: 200%;
+    color: #FFF;
+    display: block;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.cycle-prev {
+    left: 20px;
+}
+
+.cycle-next {
+    right: 20px;
+}
+
+.cycle-slideshow {
+    margin: 40px auto;
+}
+
+.line {
+    margin-bottom: 50px;
+}
+
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+
+}
+
+.form-control {
+
+    background: transparent;
+    border: solid white;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: aliceblue;
+    text-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.contact-form {
+    color: aliceblue;
+
+
+}
+
+.contact {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+::placeholder {
+    color: antiquewhite;
+}
+
+
+.button {
+    background-color: #000;
+    font-size: 30px;
+    border-radius: 10px;
+
+    bottom: 40px;
+    display: block;
+    /* change this from inline-block */
+    width: 40%;
+    /* setting the width */
+    margin: 20% auto;
+    /* this will center  it */
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+
+
+.title img {
+
+    width: 100%;
+    display: block;
+    height: auto;
+
+
+}
+
+@media (min-width: 1280px) {
+    .title img {
+        min-height: 300px;
+
+    }
+}
+
+@media (min-width: 1600px) {
+    .title img {
+        min-height: 430px;
+
+    }
+}
+
+
+
+
+
+
+
+#works figcaption a {
+    border: 1px solid #fff;
+    margin-top: 1em;
+    display: inline-block;
+    color: #fff;
+    padding: 0 2em;
+}
+
+#works figcaption a:hover {
+    text-decoration: none;
+    padding: 0 3em;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    body {
+        font: 300 13px/13px Josefin Sans, Arial, Helvetica;
+    }
+    .grid figure h2 {
+        font: 700 1.5em Josefin Sans, Arial, Helvetica;
+    }
+    figure.effect-oscar figcaption {
+        padding: 12%;
+    }
+    figure.effect-oscar figcaption::before,
+    figure.effect-chico figcaption::before {
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font: 700 3.5em Josefin Sans, Arial, Helvetica;
+    }
+    h4 {
+        font: 300 1.3em Josefin Sans, Arial, Helvetica;
+    }
+    .btn {
+        padding: 1em 2em;
+    }
+    figure.effect-chico figcaption {
+        padding: 2em;
+    }
+    figure.effect-oscar figcaption {
+        padding: 20%;
+    }
+    figure.effect-chico figcaption::before {
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+    .grid figure.effect-chico p {
+        font-size: 0.6em;
+        line-height: 1.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font: 300 12px/12px Josefin Sans, Arial, Helvetica;
+    }
+    .banner .caption,
+    .carousel-caption,
+    .carousel-control,
+    .carousel-indicators {
+        display: none;
+    }
+    h2.text-center {
+        text-align: left;
+        font-size: 1.7em;
+    }
+    h4 {
+        font: 300 1.2em Josefin Sans, Arial, Helvetica;
+    }
+    .spacer {
+        padding: 2em 0;
+    }
+    .grid.team div {
+        margin: 0;
+        padding: 0;
+    }
+    figure.effect-chico figcaption {
+        padding: 1.5em;
+    }
+    .footer {
+        padding-bottom: 2em;
+    }
+    .toptitle {
+        font-size: 30px;
+    }
+}
+
+
+h2 {
+    text-shadow: 0 0 2px 2px;
+    font-family: Josefin Sans;
+    color: #81B72B;
+}

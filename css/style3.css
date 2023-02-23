@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto|Roboto+Condensed");
+body {
+    font-family: Josefin Sans;
+    color: white;
+    text-shadow: 0px 0px 10px #000;
+    background-image: url("https://static.pexels.com/photos/417045/pexels-photo-417045.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 2vw;
+    text-align: center;
+}
+
+
+a {
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: Josefin Sans;
+
+}
+
+a {
+    font-family: Roboto;
+}
+
+#jumbo {
+
+    background-image: url("https://static.pexels.com/photos/417045/pexels-photo-417045.jpeg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    display: block;
+    margin: 30px auto;
+    height: 600px;
+    width: auto;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.content {
+    height: 600px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+
+}
+
+.container {
+    text-align: center;
+
+}
+
+.button {
+    background-color: #000;
+    font-size: 30px;
+    border-radius: 10px;
+
+    display: block;
+    /* change this from inline-block */
+    width: 40%;
+    /* setting the width */
+    margin: 0 auto;
+    /* this will center  it */
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    margin-left: 25%;
+
+
+
+
+}
+
+.title {
+    color: white;
+    text-align: center;
+
+    height: auto;
+    clear: both;
+    font-weight: 100;
+    font-size: 300%;
+    color: #F9F9F9;
+    font-family: Josefin Sans;
+}
